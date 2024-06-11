@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+background: rgb(32, 32, 66);
+}
+.container{
+    margin:130px;
+    padding:25px;
+    
+}
+.container h1{
+    color:white;
+    transition:0.4s;
+    /* flex-direction: column; */
+}
+
+.container span{
+    border-bottom:2px solid rgb(226, 159, 159);
+    color:brown;
+    transition:0.4s
+}
+.container span:hover{
+    color:rgb(247, 247, 247);  
+}
+textarea{
+    padding:10px;
+    margin:20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(81, 81, 128);
+    font-size:medium;
+    transition:0.5s;
+}
+textarea::placeholder{
+    color:black;
+}
+textarea:hover{
+    background:white;
+}
+.app{
+    display:block;
+}
+select{
+    width:365px;
+    border: none;
+    border-radius: 10px;
+    padding:5px;
+    margin:2px;
+    background-color: rgb(81, 81, 128);
+}
+select:hover{
+    background-color: rgb(156, 156, 170);
+
+}
+button{
+    padding:9px;
+    margin:2px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(81, 81, 128);
+    color:rgb(58, 41, 41);
+    transition: 0.8s;
+    cursor: pointer;
+    outline:0;
+    display:flex;
+    align-items: center;
+
+}
+button:hover{
+    background-color:white;
+    color:  rgb(105, 48, 48);
+
+}
+.row{
+    width:600px;
+    align-items: center;
+    display:flex;
+    gap:20px;
+}
+button i{
+margin-right: 10px;
+}
